@@ -1,0 +1,81 @@
+.user_profile_detail{
+    display: flex;
+    margin: 20px;
+    justify-content: space-around;
+}
+.search_btn{
+    text-align: center;
+}
+.search_btn input:first-child{
+    width: 230px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.search_btn input:nth-child(2){
+    width: 100px;
+    height: 42px;
+    cursor: pointer;
+    border-radius: 14px;
+    background-color: greenyellow;
+}
+.repo_btn{
+    background-color: rgb(93, 93, 209);
+    margin: 5px;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+.user_profile_image{
+    margin-right: 30px;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-size: 100%;
+}
+.loader{
+    display: none;
+}
+#repo_details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#repo_details .repo_container{
+     width: 300px;
+     padding: 20px;
+     border: 1px;
+     box-shadow: 0px 0px 10px ;
+     margin: 20px;
+}
+/* .page_btn{
+    display: flex;
+} */
+.page_btn{
+    display: inline-block;
+}
+#page_navigation{
+    text-align: center;
+}
+#page_navigation div{
+ width: 20px;
+ margin: 30px;
+}
+.language_used button{
+    border: 1px solid red;
+}
+#no_user{
+    text-align: center;
+}
+#page_navigation button:not(:first-of-type):not(:last-of-type) {
+    width: 35px;
+}
+#page_navigation button:first-of-type , button:last-of-type{
+  width: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
+

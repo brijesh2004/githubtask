@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Github Profile</title>
+</head>
+<body >
+    <div class="search_btn">
+        <input id="user_input" type="text" placeholder="Enter the User name">
+        <input id="serach_btn" type="button" value="Search" onclick="searchUser()">
+    </div>
+    
+    <!-- Loader -->
+
+    <center> <h1 class="loader">Loading...</h1></center>
+
+   
+    <!-- user Details -->
+
+
+
+    <div class="user_repo_details">
+       <div class="user_profile_detail">
+         <div  class="profile_img">
+            <img class="user_profile_image" src="" alt="">
+         </div>
+         <div  class="bio_and_location">
+            <h2></h2>
+            <p></p>
+            <p></p>
+         </div>
+       </div>
+       <div class="user_profile">
+        <a id="github_links"  href="" target="_blank"></a>
+       </div>
+
+       <!-- repo  -->
+       <div id="repo_details">
+       </div>
+       <div id="page_navigation">
+       </div>
+       <h1 id="no_user">
+       </h1>
+    </div>
+    <script src="script.js"></script>
+    <!-- Include the dotenv library -->
+
+</body>
+</html>
